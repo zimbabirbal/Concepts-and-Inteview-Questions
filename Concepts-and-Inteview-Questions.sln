@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concepts-and-Inteview-Questions", "Concepts-and-Inteview-Questions\Concepts-and-Inteview-Questions.csproj", "{72CC0239-4257-43CE-889F-838E0A48F926}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concepts-and-Interview-Questions", "Concepts-and-Inteview-Questions\Concepts-and-Interview-Questions.csproj", "{72CC0239-4257-43CE-889F-838E0A48F926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject-Concepts-and-Interview-Questions", "Concepts-and-Interview-Questions-TestProject\TestProject-Concepts-and-Interview-Questions.csproj", "{E86F32A2-F0F2-403B-9F69-E56EAE131BFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72CC0239-4257-43CE-889F-838E0A48F926} = {72CC0239-4257-43CE-889F-838E0A48F926}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{72CC0239-4257-43CE-889F-838E0A48F926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CC0239-4257-43CE-889F-838E0A48F926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CC0239-4257-43CE-889F-838E0A48F926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86F32A2-F0F2-403B-9F69-E56EAE131BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86F32A2-F0F2-403B-9F69-E56EAE131BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86F32A2-F0F2-403B-9F69-E56EAE131BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86F32A2-F0F2-403B-9F69-E56EAE131BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

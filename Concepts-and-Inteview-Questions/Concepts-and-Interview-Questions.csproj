@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Concepts_and_Inteview_Questions</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Advanced\Concepts\" />
+    <Folder Include="Advanced\Problems\" />
+    <Folder Include="Basic\Concepts\" />
+    <Folder Include="Basic\Problems\" />
+    <Folder Include="Intermediate\Concepts\" />
+  </ItemGroup>
+
+</Project>
