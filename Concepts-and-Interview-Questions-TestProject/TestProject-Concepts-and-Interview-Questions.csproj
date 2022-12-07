@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Concepts-and-Inteview-Questions\Concepts-and-Interview-Questions.csproj" />
+    <ProjectReference Include="..\Concepts-and-Interview-Questions\Concepts-and-Interview-Questions.csproj" />
   </ItemGroup>
 
 </Project>
